@@ -12,7 +12,7 @@ import { TUser } from '@utils-types';
 import { deleteCookie, getCookie, setCookie } from '../../utils/cookie';
 
 type TUserState = {
-  isAuthChecked: boolean; // флаг для статуса проверки токена пользователя
+  isAuthChecked: boolean; 
   isAuthenticated: boolean;
   data: TUser | null;
   loginUserError: string | null;

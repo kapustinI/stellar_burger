@@ -19,7 +19,7 @@ export const rootReducer = combineReducers({
   [userSlice.name]: userSlice.reducer,
   [orderSlice.name]: orderSlice.reducer,
   [userOrdersSlice.name]: userOrdersSlice.reducer
-}); // Заменить на импорт настоящего редьюсера)
+}); 
 
 const store = configureStore({
   reducer: rootReducer,
